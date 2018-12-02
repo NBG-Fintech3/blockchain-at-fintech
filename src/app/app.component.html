@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/">Home</a>       
+    </div>
+</nav>
+
+
+
+
+
+<div ng-app="">
+    A.F.M <input #input type="text">
+</div>
+<div ng-app="">
+    <a [routerLink]="'/contacts'"> Check</a>
+</div>
+
+
+<div ng-app="">
+    <a [routerLink]="'/accounts'"> Accounts </a>
+    <a [routerLink]="'/create-account'"> Create Account </a>
+</div>
+<div ng-app="">
+    
+    <a [routerLink]="'/create-contact'"> Create Contact </a>
+</div>
+<div ng-app="">
+    <a [routerLink]="'/leads'"> Leads </a>
+    <a [routerLink]="'/create-lead'"> Create Lead </a>
+</div>
+<div ng-app="">
+    <a [routerLink]="'/opportunities'"> Opportunities </a>
+    <a [routerLink]="'/create-opportunity'"> Create Opportunity </a>
+</div>
+
+<div>
+    <router-outlet></router-outlet>
+</div>
