@@ -1,3 +1,2 @@
-# BFI App with Angular 7
-
+# BFI App with Angular 6
 
